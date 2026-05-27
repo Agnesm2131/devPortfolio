@@ -1,0 +1,132 @@
+.skills {
+  padding: 8rem 0;
+  position: relative;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1.5rem;
+}
+
+.skillCard {
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  border-radius: 20px;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.skillCard:hover {
+  transform: translateY(-8px);
+  background: rgba(255, 255, 255, 0.05);
+  border-color: var(--accent-primary);
+  box-shadow: 0 10px 30px -10px var(--glow-primary);
+}
+
+.skillIcon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 1.5rem auto;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.03);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: var(--transition);
+}
+
+.icon {
+  font-size: 2.2rem;
+  color: var(--text-secondary);
+  transition: var(--transition);
+  z-index: 2;
+}
+
+.skillCard:hover .icon {
+  color: var(--accent-primary);
+  transform: scale(1.1);
+}
+
+.iconGlow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--accent-primary);
+  filter: blur(20px);
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.skillCard:hover .iconGlow {
+  opacity: 0.6;
+  width: 50px;
+  height: 50px;
+}
+
+.skillCard h4 {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.levelContainer {
+  margin-bottom: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.levelBar {
+  flex: 1;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.levelProgress {
+  height: 100%;
+  background: var(--accent-primary);
+  border-radius: 10px;
+  box-shadow: 0 0 15px var(--glow-primary);
+  animation: level-grow 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  transform-origin: left;
+}
+
+@keyframes level-grow {
+  from { transform: scaleX(0); opacity: 0; }
+  to { transform: scaleX(1); opacity: 1; }
+}
+
+.levelText {
+  font-size: 0.8rem;
+  font-family: var(--font-mono);
+  color: var(--accent-primary);
+  font-weight: 700;
+  min-width: 35px;
+}
+
+.category {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-family: var(--font-mono);
+  opacity: 0.6;
+}
+
+.skillCard:hover .category {
+  color: var(--accent-primary);
+  opacity: 1;
+}

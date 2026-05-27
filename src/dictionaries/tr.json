@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımda",
+    "skills": "Yetenekler",
+    "projects": "Projeler",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "greeting": "Merhaba, Ben",
+    "role": "Full-Stack Geliştirici",
+    "description": "En son teknolojileri kullanarak modern, premium ve gelişmiş web uygulamaları tasarlayan 17 yaşında tutkulu bir geliştiriciyim.",
+    "viewWork": "Çalışmalarımı Gör",
+    "github": "GitHub Profilim"
+  },
+  "about": {
+    "title": "Hakkımda",
+    "subtitle": "Ben kimim?",
+    "p1": "Sürekli yeni teknolojiler keşfeden 17 yaşında tutkulu bir yazılım geliştiriciyim. Merakla başlayan yolculuğum, ölçeklenebilir ve gelişmiş web uygulamaları ile gelişmiş arka uç sistemleri tasarlama tutkusuna dönüştü.",
+    "p2": "TypeScript ve Next.js ile güzel, performanslı arayüzler inşa ederken, Java, Python ve .NET ile sağlam arka uç işlevselliği sağlayarak tasarım ve mühendislik arasındaki köprüyü kuruyorum.",
+    "tech": "Teknoloji",
+    "dedication": "Özveri",
+    "passion": "Tutku"
+  },
+  "skills": {
+    "title": "Yeteneklerim"
+  },
+  "projects": {
+    "title": "Öne Çıkan Projeler",
+    "p1_title": "Örnek Proje 1",
+    "p1_desc": "Kendi projelerinizi bu alanda tanıtabilir, geliştirdiğiniz sistemler, kullandığınız teknolojiler ve projenin detayları hakkında burada açıklama yapabilirsiniz.",
+    "p2_title": "Örnek Proje 2",
+    "p2_desc": "Kendi geliştirdiğiniz web uygulamaları, mobil uygulamalar veya diğer yazılım çözümlerinizi bu şablon üzerinde tanıtabilirsiniz.",
+    "p3_title": "Örnek Proje 3",
+    "p3_desc": "Projenizin kapsamını, çözdüğü problemleri, sunduğu özellikleri ve teknik altyapısını bu alanda detaylandırabilirsiniz."
+  },
+  "contact": {
+    "title": "Harika Bir Şeyler İnşa Edelim",
+    "subtitle": "Şu anda yeni fırsatlar arıyorum. Bir sorunuz varsa, proje teklifiniz varsa veya sadece merhaba demek istiyorsanız, gelen kutum her zaman açık.",
+    "name": "İsim",
+    "email": "E-posta",
+    "subject": "Konu",
+    "message": "Mesajınız",
+    "send": "Mesaj Gönder",
+    "footer": "devAgnes.co tarafından tasarlandı ve geliştirildi."
+  }
+}

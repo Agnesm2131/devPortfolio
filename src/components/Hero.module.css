@@ -1,0 +1,142 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  background: rgba(16, 185, 129, 0.05);
+  border: 1px solid rgba(16, 185, 129, 0.15);
+  border-radius: 30px;
+  margin-bottom: 1.5rem;
+}
+
+.badge span {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--accent-primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.hero h1 {
+  font-size: 4.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  letter-spacing: -2px;
+}
+
+.highlight {
+  color: var(--accent-primary);
+  position: relative;
+  filter: drop-shadow(0 0 10px var(--glow-primary));
+}
+
+.hero p {
+  font-size: 1.15rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  max-width: 500px;
+  margin-bottom: 2.5rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.visuals {
+  position: relative;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shape1 {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background: var(--accent-secondary);
+  filter: blur(120px);
+  opacity: 0.3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.shape2 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: var(--accent-primary);
+  filter: blur(100px);
+  opacity: 0.2;
+  top: 20%;
+  left: 20%;
+  z-index: -1;
+}
+
+.card {
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 480px;
+  transform: perspective(1000px) rotateY(-12deg) rotateX(8deg);
+  transition: var(--transition);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.card:hover {
+  transform: perspective(1000px) rotateY(0deg) rotateX(0deg);
+  background: rgba(255, 255, 255, 0.05);
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 40px -10px var(--glow-primary);
+}
+
+.card pre {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  color: #a8b2d1;
+  line-height: 1.7;
+}
+
+.card code {
+  color: #c678dd; 
+}
+
+@media (max-width: 992px) {
+  .heroContainer {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+  
+  .hero p {
+    margin: 0 auto 2.5rem auto;
+  }
+  
+  .actions {
+    justify-content: center;
+  }
+}

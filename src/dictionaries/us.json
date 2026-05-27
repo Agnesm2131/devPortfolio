@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact Me"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "role": "Full-Stack Developer",
+    "description": "I am a 17-year-old passionate developer crafting modern, premium, and advanced web applications using the latest technologies.",
+    "viewWork": "View My Work",
+    "github": "GitHub Profile"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Who am I?",
+    "p1": "I am a 17-year-old passionate software developer constantly exploring new technologies. My journey began with curiosity and has quickly evolved into an obsession with creating highly scalable, advanced web applications and sophisticated backend systems.",
+    "p2": "I specialize in bridging the gap between design and engineering—building beautiful, performant interfaces with TypeScript and Next.js, while ensuring robust backend functionality with Java, Python, and .NET.",
+    "tech": "Technologies",
+    "dedication": "Dedication",
+    "passion": "Passion"
+  },
+  "skills": {
+    "title": "My Skills"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "p1_title": "Example Project 1",
+    "p1_desc": "You can introduce your own projects in this section, describing the systems you built, the technologies you used, and other relevant details here.",
+    "p2_title": "Example Project 2",
+    "p2_desc": "Showcase your developed web apps, mobile apps, or other software solutions here on this customizable portfolio template.",
+    "p3_title": "Example Project 3",
+    "p3_desc": "Detail the scope of your project, the problems it solves, the features it offers, and its technical architecture in this area."
+  },
+  "contact": {
+    "title": "Let's Build Something Amazing",
+    "subtitle": "I'm currently looking for new opportunities. Whether you have a question, a project proposal, or just want to say hi, my inbox is always open.",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Your Message",
+    "send": "Send Message",
+    "footer": "Designed and built by devAgnes.co."
+  }
+}
