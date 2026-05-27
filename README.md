@@ -171,7 +171,7 @@ Her türlü katkıya, hata bildirimine ve yeni özellik taleplerine açığız! 
 
 ## 📝 Lisans
 
-Bu proje **MIT Lisansı** ile dağıtılmaktadır. Daha fazla bilgi için `LICENSE` dosyasına göz atabilirsiniz.
+Bu proje **Apache License 2.0 Lisansı** ile dağıtılmaktadır. Daha fazla bilgi için `LICENSE` dosyasına göz atabilirsiniz.
 
 <div align="center">
   <sub><a href="https://github.com/kullanici-adiniz">devAgnes</a> tarafından sevgiyle tasarlandı ve kodlandı.</sub>
