@@ -174,5 +174,5 @@ Her türlü katkıya, hata bildirimine ve yeni özellik taleplerine açığız! 
 Bu proje **Apache License 2.0 Lisansı** ile dağıtılmaktadır. Daha fazla bilgi için `LICENSE` dosyasına göz atabilirsiniz.
 
 <div align="center">
-  <sub><a href="https://github.com/kullanici-adiniz">devAgnes</a> tarafından sevgiyle tasarlandı ve kodlandı.</sub>
+  <sub><a href="https://github.com/kullanici-adiniz">Agnesm213</a> tarafından sizler için geliştirildi <3.</sub>
 </div>
